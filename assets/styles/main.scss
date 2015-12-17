@@ -1,0 +1,76 @@
+@import "common/_variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/animate";
+@import "layouts/home";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+	
+a {
+	color:#3399ff;
+}
+
+blockquote {
+	font-family:'HelveticaNeueW01-ThinIt';
+}
+
+div.wrap.container {
+	width:100%;	
+	padding:0;
+}
+
+div.content.row {
+	margin-top:-40px;
+}
+
+div.maincontent {
+	max-width:70%;
+	margin:auto;
+	padding:0;
+}
+
+h1 {
+	font-family:'HelveticaNeueW01-UltLt';
+	font-size:45pt;
+	color:#e61718;
+}
+
+h2 {
+font-family:'HelveticaNeueW01-55Roma';
+	font-size:24pt;
+}
+
+
+
+p {
+	font-family:'HelveticaNeueW01-45Ligh';
+}
+
+.wp-tiles-byline { 
+
+	&-title {
+	font-size:16pt;
+	line-height:16pt;
+	font-family:'HelveticaNeueW01-Thin';
+	}
+
+	&-content #plugin-title h1, h2, h3, a, p, #plugin-description{
+	font-size:10pt;
+	font-family:'HelveticaNeueW01-45Ligh';
+	color:#ccc;
+	}
+}
